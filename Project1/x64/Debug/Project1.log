@@ -1,0 +1,396 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(44,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(53,185): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(53,118): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(53,80): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(53,42): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(203,69): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(203,45): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(205,68): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\ConsoleApplication1.cpp(205,40): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+  Entity.cpp
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(73,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(770,73): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(770,54): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(872,73): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(872,54): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(873,73): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(873,54): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(876,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(876,36): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(877,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(877,36): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(878,74): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(878,55): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(880,62): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(880,36): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(889,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(935,107): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(935,54): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(936,107): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(936,54): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(937,109): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(937,54): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(959,55): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(960,65): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(966,73): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(966,54): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1178,39): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1455,59): warning C4244: "argument": konwersja z "float" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1660,70): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1660,51): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1814,17): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1874,142): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1874,102): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1874,62): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1883,145): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1883,105): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Entity.cpp(1883,65): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+  gameboard.cpp
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(334,45): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(334,35): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(362,76): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(363,79): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(364,75): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(529,93): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(529,61): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(569,87): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(569,59): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(606,85): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(606,57): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(651,90): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(651,62): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(687,87): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(687,59): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(724,88): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\gameboard.cpp(724,60): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+  Map.cpp
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(11,56): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(11,42): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(13,66): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(13,52): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(15,73): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(15,56): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(17,10): warning C4244: "inicjowanie": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(22,52): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(24,22): warning C4244: "=": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(29,54): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Map.cpp(55,26): warning C4244: "=": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+  pch.cpp
+  Projectiles.cpp
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(438,77): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(438,61): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(478,68): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(478,59): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(498,30): warning C4244: "argument": konwersja z "float" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(675,100): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(677,105): warning C4244: "argument": konwersja z "double" do "sf::Uint8", możliwa utrata danych
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(784,7): warning C4101: "help": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(1048,8): warning C4101: "dis": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(1050,7): warning C4101: "pass": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(1206,77): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(1206,61): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+  Weapon.cpp
+  Generowanie kodu...
+C:\Users\mikok\source\repos\Project1\Project1\Projectiles.cpp(1069): warning C4715: "Homing::hitEntity”: niewszystkie ścieżki kodu zwracają wartość
+sfml-window.lib(sfml-window-2.dll) : fatal error LNK1112: wystąpił konflikt typu maszyny modułu „x86” z typem maszyny docelowej „x64”

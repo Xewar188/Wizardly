@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Weapons">
+      <UniqueIdentifier>{b7baa0c8-6710-4061-936c-ed1ef3597be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Weapons">
+      <UniqueIdentifier>{1cb81c70-d76c-4c87-9e86-ca54cce2e08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Map">
+      <UniqueIdentifier>{b8fe2321-24c1-44b5-a793-1ffebe461654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Map">
+      <UniqueIdentifier>{c3f82217-6517-4c1d-bdc5-6e9121f264c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Projectiles">
+      <UniqueIdentifier>{43c019ba-1a87-4354-8874-e2cac54d76e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Projectiles">
+      <UniqueIdentifier>{e3782760-f30a-48a4-84b4-2eff8dc09c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Entities">
+      <UniqueIdentifier>{9571436f-ef8e-4613-b16b-0f4a4c0f53ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Entities">
+      <UniqueIdentifier>{a120fdee-3e7c-4d79-b999-8af7d3fa575a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Board">
+      <UniqueIdentifier>{920f8e01-deb0-4c72-8444-944c94147be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Board">
+      <UniqueIdentifier>{ad5f9493-bed7-45db-98a6-742c9e6ba95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Board\Cells">
+      <UniqueIdentifier>{6d5d2204-07c5-441b-a228-5e752f598c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Board\Cells">
+      <UniqueIdentifier>{8e5af8df-da78-4cbb-93e2-4adb9ea9202c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MagicBolt.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Bouncy.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Flamethrower.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Forcefield.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Homing.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Plasmasword.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Pliki źródłowe\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTile.cpp">
+      <Filter>Pliki źródłowe\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncyProjectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FireballProjectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameProjectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ForcefieldProjectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingProjectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicBoltProjectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlasmaswordProjectile.cpp">
+      <Filter>Pliki źródłowe\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Artifact.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierEntity.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Healpoint.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Pliki źródłowe\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponChart.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Directions.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackSpeedVendor.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthVendor.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Pliki źródłowe\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="UsedShrine.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="StrengthShrine.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedShrine.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="StartTile.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Pliki źródłowe\Board\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Pliki źródłowe\Board</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Settings.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicBolt.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponChart.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouncy.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Flamethrower.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Forcefield.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Homing.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Plasmasword.h">
+      <Filter>Pliki nagłówkowe\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Pliki nagłówkowe\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTile.h">
+      <Filter>Pliki nagłówkowe\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncyProjectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FireballProjectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameProjectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ForcefieldProjectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingProjectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicBoltProjectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasmaswordProjectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Pliki nagłówkowe\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Artifact.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierEntity.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Healpoint.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Pliki nagłówkowe\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSpeedVendor.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthVendor.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="StartTile.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Plains.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="UsedShrine.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="StrengthShrine.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedShrine.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Pliki nagłówkowe\Board\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Pliki nagłówkowe\Board</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
