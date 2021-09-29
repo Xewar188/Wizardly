@@ -3,11 +3,11 @@
 
 class BarrierEntity : public Entity
 {
-	int age, maxAge;//zmienne potrzebne do automatycznego usuwania 
+	int age, maxAge;
 	void createWideBody(int x, int y);
 	void createHighBody(int x, int y);
 public:
-	BarrierEntity();//mode - zalezy od c\/
+	BarrierEntity();
 	BarrierEntity(Entity c, Board* board);
 	void update();
 	void onInteract(Player* cel);

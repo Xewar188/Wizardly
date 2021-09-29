@@ -8,15 +8,15 @@ class Projectile : public sf::Drawable
 {
 	bool isInWall();
 protected:
-	sf::RectangleShape body;//glowne cialo pocisku
-	std::vector<sf::RectangleShape> toDraw;//dodatkowe czesci wygladu
-	int damage;//obrazenia pocisku
-	int vela;//predkosc pocisku
-	Direction dir;//kierunek pocisku
-	int x, y;//wspolzedne x,y obecnego kafelka
-	int type = 0; //<0 dla przyjaznych 0> dla wrogich 
+	sf::RectangleShape body;
+	std::vector<sf::RectangleShape> toDraw;
+	int damage;
+	int vela;
+	Direction dir;
+	int x, y;
+	int type = 0; 
 	int projectileId;
-	Board* board;//mapa na ktorej znajduje sie pocisk
+	Board* board;
 public:
 	Projectile();
 	Projectile(Entity c, Board& board);
@@ -30,13 +30,13 @@ public:
 	virtual int getCenterY();
 	virtual void draw(sf::RenderTarget& window, sf::RenderStates state) const;
 	bool isOnMap();
-	virtual bool move(int vel = -1);//poruszanie pociskiem zwraca true jezeli przerwany przedwczesnie
+	virtual bool move(int vel = -1);
 	
-	virtual void remove();//usuwanie pocisku z mapy
-	virtual bool hitEntity( Entity* toHit) { return true; }; //zachowanie podczas trafienia objektu   zwraca true jezeli pocisk jest usuwany false jezeli nie
-	virtual void hitWall() {};//zachowanie podczas trafienia sciany
-	virtual void setAppearance(){}//dostosowanie wygladu do nowegoc polozenia
-	virtual void animate() {}//zmiana wygladu ze wzgledu na animacje
+	virtual void remove();
+	virtual bool hitEntity( Entity* toHit) { return true; }; 
+	virtual void hitWall() {};
+	virtual void setAppearance(){}
+	virtual void animate() {}
 };
 
 

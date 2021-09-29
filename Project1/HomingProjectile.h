@@ -5,7 +5,7 @@ class Board;
 class Entity;
 class HomingProjectile : public Projectile
 {
-	Entity* target = NULL;//zmienne pomocnicze zwiazane z poruszaniem sie pocisku
+	Entity* target = NULL;
 public:
 	HomingProjectile() {}
 	HomingProjectile(Entity& a, Board& board);

@@ -8,7 +8,7 @@ class Player :public Entity
 	int artifactCounter = 0;
 	int score = 0;
 	int gold = 0;
-	WeaponChart chart;//obiekt zawierajacy bronie
+	WeaponChart chart;
 public:
 	void giveGold(int value);
 	void spendGold(int value);
@@ -22,13 +22,13 @@ public:
 
 	void unlockWeapon();
 
-	Player();//mode - -1
+	Player();
 	Player(float width, float height, float x, float y, Color color, Board* board);
-	void interact();//interakcja z mapa, innym entity
+	void interact();
 	void dealDamage(int dmg, Projectile* src = NULL);
 	void setAppearance();
-	void nextWeapon();//zmiana broni na nastepna
-	void previousWeapon();//zmiana broni na poprzednia
+	void nextWeapon();
+	void previousWeapon();
 	void equipWeapon(Weapon* a);
 
 	void increaseHealth(int value);

@@ -9,7 +9,7 @@
 
 class Map;
 class GameController {
-	static Board boardComplex[BOARD_NUMBER][BOARD_NUMBER];//wszystkie mapy 
+	static Board boardComplex[BOARD_NUMBER][BOARD_NUMBER];
 	static sf::RenderWindow window;
 
 	static Event msg;

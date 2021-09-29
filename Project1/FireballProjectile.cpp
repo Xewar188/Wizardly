@@ -4,7 +4,7 @@
 
 void FireballProjectile::addDeathAnimation()
 {
-	for (int i = 0; i < 20; i++)//dodawanie animacji wybuchu
+	for (int i = 0; i < 20; i++)
 	{
 		RectangleShape toAdd = RectangleShape(Vector2f(80, 80));
 
@@ -83,7 +83,7 @@ bool FireballProjectile::move(int vel)
 
 void FireballProjectile::hitWall()
 {
-	for (int i = 0; i < 3; i++)//niszczenie przeszkod
+	for (int i = 0; i < 3; i++)
 		for (int j = 0; j < 3; j++)
 			if (board->getCell(x - 1 + i, y - 1 + j) != NULL)
 				board->getCell(x - 1 + i, y - 1 + j)->hit(25);
@@ -157,7 +157,7 @@ void FireballProjectile::setAppearance()
 
 void FireballProjectile::animate()
 {
-	state += (float)PI / 10;//zmiana koloru
+	state += (float)PI / 10;
 	body.setFillColor(Color((int) (pow(sin(state - PI / 8), 2) * 255), 
 							(int)(pow(sin(state - PI / 8), 2) * 255),
 							195));

@@ -6,7 +6,7 @@ class Entity;
 class FlameProjectile : public Projectile
 {
 	int range = 25;
-	int age = 0;//zmienne pomocnicze zwiazane z edycja wygladu i zasiegiem pocisku
+	int age = 0;
 public:
 	void animate();
 	FlameProjectile();

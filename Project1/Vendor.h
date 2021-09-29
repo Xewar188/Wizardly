@@ -7,7 +7,7 @@ class Vendor : public Entity
 protected:
 	int cost;
 public:
-	Vendor();// mode -0
+	Vendor();
 	Vendor(float width, float height, float x, float y, Board* board);
 	void onInteract(Player* cel);
 	void dealDamage(int dmg, Projectile* src = NULL) {}

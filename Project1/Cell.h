@@ -10,17 +10,17 @@ protected:
 
 	Board *src;
 
-	bool isTangible = false;//czy kafelek wywoluje kolizje
-	bool filled = false;//zmienna u¿ywana podczas tworzenia planszy by okreslic czy cos zostalo w nim umieszczone
+	bool isTangible = false;
+	bool filled = false;
 
-	sf::RectangleShape rect;//glowne tlo kafelka
-	std::vector<sf::RectangleShape> toDraw;//dodatkowe elementy estetyczne
+	sf::RectangleShape rect;
+	std::vector<sf::RectangleShape> toDraw;
 public:
 	Cell();
 
-	float getX();//zwraca x
+	float getX();
 
-	float getY();//zwraca y
+	float getY();
 
 	void draw(sf::RenderTarget& window, sf::RenderStates state) const;
 

@@ -9,16 +9,16 @@ class Weapon
 {
 
 protected:
-	bool avaliable = true;//czy dostepny dla gracza
-	int cooldown = 0;// czas po jakim mozemy zatakowac ponownie
+	bool avaliable = true;
+	int cooldown = 0;
 	int minCooldown;
-	sf::Color weaponColor = sf::Color::White;//kolor jakim sygnalizujemy typ broni
+	sf::Color weaponColor = sf::Color::White;
 public:
 	Weapon()
 	{
 		minCooldown = 10;
 	}
-	virtual void attack(Board& board, Entity& src);//atak na mapie board
+	virtual void attack(Board& board, Entity& src);
 	virtual Projectile* createProjectile(Board& board, Entity& src) { return new Projectile(); }
 	sf::Color getColor();
 	void changeColor(sf::Color c);

@@ -41,7 +41,7 @@ MagicBoltProjectile::MagicBoltProjectile(Entity a, Board& boarda)
 
 void MagicBoltProjectile::addDeathAnimation() {
 
-	for (int i = 0; i < 7; i++)//dodawanie animacji
+	for (int i = 0; i < 7; i++)
 	{
 		RectangleShape toAdd = RectangleShape(Vector2f(10.0f - i * 5 / 7, 10.0f - i * 5 / 7));
 		toAdd.setPosition((float) getCenterX() - toAdd.getSize().x / 2,
@@ -95,7 +95,7 @@ bool MagicBoltProjectile::move(int vel)
 	if (age % 8 == 0)
 		animate();
 	age++;
-	return Projectile::move(vel);//zmiana koloru
+	return Projectile::move(vel);
 }
 void MagicBoltProjectile::animate()
 {

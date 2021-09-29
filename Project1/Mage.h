@@ -4,7 +4,7 @@
 class Mage :public Entity
 {
 public:
-	Mage();//mode - 2
+	Mage();
 	~Mage();
 	Mage(float width, float height, float x, float y, Color color, Board* board, Weapon* toEquip);
 	void setAppearance();

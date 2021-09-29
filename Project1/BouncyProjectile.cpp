@@ -37,7 +37,7 @@ BouncyProjectile::BouncyProjectile(Entity a, Board& boarda)
 	damage += a.getStrength();
 }
 void BouncyProjectile::addDeathAnimation() {
-	for (int i = 0; i < 10; i++)//dodawanie animacji
+	for (int i = 0; i < 10; i++)
 	{
 		RectangleShape toAdd = RectangleShape(Vector2f(body.getSize().x * (10 - i) / 10,
 			body.getSize().y * (10 - i) / 10));

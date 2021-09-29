@@ -23,7 +23,7 @@
 #include "UsedShrine.h"
 
 sf::RenderWindow GameController::window;
-Board GameController::boardComplex[BOARD_NUMBER][BOARD_NUMBER];//wszystkie mapy 
+Board GameController::boardComplex[BOARD_NUMBER][BOARD_NUMBER];
 
 Event GameController::msg;
 Player GameController::player;
@@ -70,14 +70,14 @@ void GameController::prepareBoards()
 	createBasicBoards();
 	createStatIcons();
 	openPassages();
-	for (int i = 0; i < BOARD_NUMBER; i++)//ustawianie map
+	for (int i = 0; i < BOARD_NUMBER; i++)
 		for (int j = 0; j < BOARD_NUMBER; j++)
 		{
 			mapComplex.maps[i][j] = MapTile(boardComplex[i][j], window.getSize());
 			boardComplex[i][j].map = &mapComplex.maps[i][j];
 		}
 	emplaceArtifacts();
-	for (int i = 0; i < BOARD_NUMBER; i++)//ustawianie wojownikow
+	for (int i = 0; i < BOARD_NUMBER; i++)
 		for (int j = 0; j < BOARD_NUMBER; j++)
 		{
 			if (j == 0 && i == 0)
@@ -95,9 +95,9 @@ void GameController::prepareBoards()
 			boardComplex[0][0].changeCell(COLUMNS_NUMBER / 2 - 1 + i, ROWS_NUMBER / 2 - 1 + j, new Plains(&boardComplex[0][0], COLUMNS_NUMBER / 2 - 1 + i, ROWS_NUMBER / 2 - 1 + j));
 
 	boardComplex[0][0].map->setShrine(5);
-	boardComplex[0][0].map->update();//zmiana pola startowego
+	boardComplex[0][0].map->update();
 	boardComplex[0][0].changeCell(COLUMNS_NUMBER / 2, ROWS_NUMBER / 2, new StartTile(&boardComplex[0][0], COLUMNS_NUMBER / 2, ROWS_NUMBER / 2));
-	mapComplex.maps[0][0].find();//odkrywanie mapy
+	mapComplex.maps[0][0].find();
 
 
 	player = Player((float) window.getSize().y / 3 / ROWS_NUMBER,
@@ -196,7 +196,7 @@ void GameController::createStatIcons()
 void GameController::openPassages()
 {
 	int temp;
-	for (int i = 0; i < BOARD_NUMBER; i++)//losowanie przejsc
+	for (int i = 0; i < BOARD_NUMBER; i++)
 		for (int j = 0; j < BOARD_NUMBER; j++)
 		{
 
@@ -584,7 +584,7 @@ void GameController::startGameLoop()
 	font = new Font();
 	font->loadFromFile("arial.ttf");
 
-	for (int i = 0; i < BOARD_NUMBER; i++)//tworzenie plansz
+	for (int i = 0; i < BOARD_NUMBER; i++)
 		for (int j = 0; j < BOARD_NUMBER; j++)
 		{
 			boardComplex[i][j] = Board(1, (float) window.getSize().x, (float) window.getSize().y);
@@ -596,14 +596,14 @@ void GameController::startGameLoop()
 		prepareNewGame();
 		while (player.isAlive() && !didPlayerWin && window.isOpen())
 		{
-			boardComplex[xboard][yboard].update();// update-owanie mapy(poruszanie pociskami, usuwanie ich)
+			boardComplex[xboard][yboard].update();
 
-			window.draw(boardComplex[xboard][yboard]);//rysowanie mapy
-			for (size_t i = 0; i < playerSpeed.size(); i++)//ikona szybkosci
+			window.draw(boardComplex[xboard][yboard]);
+			for (size_t i = 0; i < playerSpeed.size(); i++)
 				window.draw(playerSpeed[i]);
-			for (size_t i = 0; i < playerStrength.size(); i++)//ikona sily
+			for (size_t i = 0; i < playerStrength.size(); i++)
 				window.draw(playerStrength[i]);
-			for (size_t i = 0; i < playerGold.size(); i++)//ikona zlota
+			for (size_t i = 0; i < playerGold.size(); i++)
 				window.draw(playerGold[i]);
 			window.draw(playerSpeedText);
 			window.draw(playerStrengthText);
@@ -616,7 +616,7 @@ void GameController::startGameLoop()
 
 		if (!window.isOpen())
 			return;
-		boardComplex[xboard][yboard].update();// update-owanie mapy(poruszanie pociskami, usuwanie ich)
+		boardComplex[xboard][yboard].update();
 		window.draw(boardComplex[xboard][yboard]);
 		displayEndMessage();
 
@@ -659,13 +659,13 @@ void GameController::winGame()
 
 void GameController::checkMovementInput()
 {
-	if (!(Keyboard::isKeyPressed(Keyboard::Up) && Keyboard::isKeyPressed(Keyboard::Down)))//ruch
+	if (!(Keyboard::isKeyPressed(Keyboard::Up) && Keyboard::isKeyPressed(Keyboard::Down)))
 		if (Keyboard::isKeyPressed(Keyboard::Up))
 		{
 			if (!manualMode)
 				player.setDir(1);
 
-			player.move(1, player.getStrength());//ruch postaci gracza
+			player.move(1, player.getStrength());
 		}
 		else if (Keyboard::isKeyPressed(Keyboard::Down))
 		{
@@ -703,12 +703,12 @@ void GameController::checkSpecialInput()
 		{
 			window.close();
 		}
-		if (msg.type == Event::KeyPressed && msg.key.code == Keyboard::E)//interakcja z otoczeniem
+		if (msg.type == Event::KeyPressed && msg.key.code == Keyboard::E)
 		{
 			player.interact();
 		}
 		if (manualMode)
-			if (msg.type == Event::KeyPressed && msg.key.code == Keyboard::W) //zmiana kierunku patrzenia
+			if (msg.type == Event::KeyPressed && msg.key.code == Keyboard::W)
 			{
 
 				player.setDir(player.getDirection() - 1);
@@ -750,7 +750,7 @@ void GameController::checkSpecialInput()
 
 void GameController::checkInput()
 {
-	if (Keyboard::isKeyPressed(Keyboard::Q))//atak
+	if (Keyboard::isKeyPressed(Keyboard::Q))
 	{
 		player.attack();
 	}

@@ -99,24 +99,24 @@ void Board::changeOpen(bool mode, int dir)
 	int xMod = 0, yMod = 0;
 	switch (dir)
 	{
-	case 1:						//top
+	case 1:						
 		isTopOpen = mode;
 		xMod = 1;
 		startX = COLUMNS_NUMBER / 2 - 1;
 		break;
-	case 2:							//right
+	case 2:							
 		isRightOpen = mode;
 		yMod = 1;
 		startX = COLUMNS_NUMBER - 1;
 		startY = ROWS_NUMBER / 2 - 1;
 		break;
-	case 3:							//bottom
+	case 3:						
 		isBottomOpen = mode;
 		xMod = 1;
 		startX = COLUMNS_NUMBER / 2 - 1;
 		startY = ROWS_NUMBER - 1;
 		break;
-	case 4:							//left
+	case 4:							
 		isLeftOpen = mode;
 		yMod = 1;
 		startX = 0;
@@ -169,12 +169,12 @@ void Board::draw(RenderTarget& window, RenderStates state) const
 		
 		
 
-	for (int i = (int)entity.size() - 1; i >= 0; i--)//postacie
+	for (int i = (int)entity.size() - 1; i >= 0; i--)
 	{
 		window.draw(*entity[i]);
 
 	}
-	for (auto i = projectiles.begin(); i !=projectiles.end() ; i++)//pociski wszystkich rodzajow
+	for (auto i = projectiles.begin(); i !=projectiles.end() ; i++)
 		window.draw(*i->second);
 		
 	if(toAnimate.size() > 0)

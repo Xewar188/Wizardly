@@ -9,12 +9,12 @@
 #include "Bouncy.h"
 #include "Barrier.h"
 
-class WeaponChart//musza znajdowac sie tu wszystkie instancje broni
+class WeaponChart
 {
 
 
 	size_t currentlySelected = 0;
-	std::vector<Weapon*> armory;//zbrojownia przechowujaca wszystkie bronie
+	std::vector<Weapon*> armory;
 public:
 	WeaponChart();
 	void clearWeapons();

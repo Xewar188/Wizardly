@@ -5,7 +5,7 @@ class Board;
 class Entity;
 class FireballProjectile : public Projectile
 {
-	int age = 0;//zmienne pomocnicze zwiazane z edycja wygladu
+	int age = 0;
 	void addDeathAnimation();
 public:
 	FireballProjectile();

@@ -16,9 +16,9 @@ class Board : public Drawable
 	friend class GameController;
 
 	
-	Cell *board[COLUMNS_NUMBER][ROWS_NUMBER];//przechowanie wyrzystkich danych potrzebnych do obliczen
-	float cellWidth, cellHeight;//szerokosc i wysokosc kazdej komorki
-	bool isTopOpen = false;//czy wyjscie od odpowiedniej strony istnieje
+	Cell *board[COLUMNS_NUMBER][ROWS_NUMBER];
+	float cellWidth, cellHeight;
+	bool isTopOpen = false;
 	bool isBottomOpen = false;
 	bool isLeftOpen = false;
 	bool isRightOpen = false;
@@ -29,16 +29,16 @@ class Board : public Drawable
 	int enemies = 0;
 	int projectileIdCounter = 0;
 	
-	MapTile* map;// wskaznik do mapy poloczonej z ta plansza
-	Uint64 timer = 0;//liczenie czasu(potrzebne do kalkulowania cooldownow)
+	MapTile* map;
+	Uint64 timer = 0;
 	
-	std::map<int, Projectile*> projectiles;//wszystkie pociski
-	std::set<int> projectilesToRemove;//pomocniczy wektor przechowujacy wszystkie pociski do usuniecia w danej iteracji
+	std::map<int, Projectile*> projectiles;
+	std::set<int> projectilesToRemove;
 
-	std::vector<Entity*> entity;//wszystkie entity
+	std::vector<Entity*> entity;
 	std::vector<Entity*> entityToRemove;
 
-	std::vector<std::vector<RectangleShape>> toAnimate;//animacje odtwarzane na planszy kazdy vector to osobna klatka
+	std::vector<std::vector<RectangleShape>> toAnimate;
 	std::vector<std::vector<Text>> textToDraw;
 
 public:
@@ -49,30 +49,29 @@ public:
 	static  std::vector<RectangleShape> playerGold;
 	static Text playerGoldText;
 
-	void changeCell(int x, int y, Cell *toChange);// zmiana typu komorki o wspolrzednych w board[x][y]
+	void changeCell(int x, int y, Cell *toChange);
 	
 	void increaseEnemyCounter();
 	void decreaseEnemyCounter();
 	void addEntity(Entity* toAdd);
-	void removeEntity(Entity* toRemove);//usuniecie entity z planszy
+	void removeEntity(Entity* toRemove);
 	std::vector<Entity*>::iterator getEntityBeginPointer();
 	std::vector<Entity*>::iterator getEntityEndPointer();
 	
 	void addObjectToAnimate(RectangleShape toAdd, int howFarInFuture);
 	void addTextToAnimate(Text toAdd, int howFarInFuture);
 	void onInteract(Player* cel, int x, int y);
-	//stworzenie mapy na podstawie danych zawartych w board //1
-	void changeOpen(bool mode, int dir);//zmiana otwarcia kazdego z kierunkow mapy	
-	Board();															//4     dir       2
-	Board(int mode,float width,float height);									//3
+	void changeOpen(bool mode, int dir);
+	Board();															
+	Board(int mode,float width,float height);									
 	~Board();
 	void draw(RenderTarget& window, RenderStates state) const;
 	
-	float getCellWidth();//zwraca szerokosc komorki
-	float getCellHeight();//zwraca wysokosc komorki
+	float getCellWidth();
+	float getCellHeight();
 	int getCellX(int x);
 	int getCellY(int y);
-	Cell *getCell(int x, int y);//zwraca dana komorke
+	Cell *getCell(int x, int y);
 
 	Uint64 getTime();
 
@@ -86,7 +85,7 @@ public:
 	std::map<int, Projectile*>::iterator getProjectileBeginPointer();
 	std::map<int, Projectile*>::iterator getProjectileEndPointer();
 
-	void update();// updateuje mape(wykonuje operacjie niezalezne od gracza)
+	void update();
 
 	bool isSideOpen(int side);
 	bool canSideBeOpened(int side);

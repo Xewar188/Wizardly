@@ -94,7 +94,7 @@ void Warrior::update()
 		this->findPath();
 		if (path.size() >= 2) {
 			int newDir = (path[path.size() - 2].x - x)
-				+ (path[path.size() - 2].y - y) * 2;// if findPath works correctly exactly one difference is non zero value
+				+ (path[path.size() - 2].y - y) * 2;
 			switch (newDir)
 			{
 			case 1:
@@ -118,7 +118,7 @@ void Warrior::update()
 		if (path[path.size() - 2].x == x && path[path.size() - 2].y == y)
 			path.pop_back();
 		int newDir = (path[path.size() - 2].x - x)
-			+ (path[path.size() - 2].y - y) * 2;// if findPath works correctly exactly one difference is non zero value
+			+ (path[path.size() - 2].y - y) * 2;
 		switch (newDir)
 		{
 		case 1 :

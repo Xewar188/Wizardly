@@ -2,11 +2,11 @@
 #include "MapTile.h"
 class Map
 {
-	int xmiddle = 0, ymiddle = 0;//wspolrzedne x i y w tablicy map srodkowej mapy ukladu
+	int xmiddle = 0, ymiddle = 0;
 public:
-	MapTile maps[BOARD_NUMBER][BOARD_NUMBER];//wszystkie mapy
-	void show(sf::RenderWindow& window);//wyswietlenie map
-	void setAppearance();//dostosowanie wygladu map po przesunieciu
-	void move(int dir);//przesuniecie ukladu map
+	MapTile maps[BOARD_NUMBER][BOARD_NUMBER];
+	void show(sf::RenderWindow& window);
+	void setAppearance();
+	void move(int dir);
 };
 

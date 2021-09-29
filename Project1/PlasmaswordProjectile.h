@@ -5,7 +5,7 @@ class Board;
 class Entity;
 class PlasmaswordProjectile : public Projectile
 {
-	Entity* src;//zmienne pomocnicze zwiazane z edycja wygladu
+	Entity* src;
 	float angleorg;
 	float angle = 0;
 	void setAppearance();
