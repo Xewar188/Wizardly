@@ -1,4 +1,5 @@
 Wizardly is roguelike written with use of SFML library.
+Project was created with use of Visual Studio 2019
 
 Controls:
 
